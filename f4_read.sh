@@ -17,4 +17,8 @@
 #readinng multiple inputs using array
 echo "enter the names:"
 read -a names
+<<<<<<< HEAD
 echo the names are ${names[0]} , ${names[1]}
+=======
+echo the names are ${names[0]} ,${names[1]}
+>>>>>>> 14b90b43adcfed0e21988a6b443a881a0d2447c3
