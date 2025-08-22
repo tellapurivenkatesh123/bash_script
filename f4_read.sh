@@ -19,5 +19,5 @@ echo "enter the names:"
 read -a names
 
 echo the names are ${names[0]} , ${names[1]}
-echo the names are ${names[0]} ,${names[1]}
+
 
