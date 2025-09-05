@@ -14,10 +14,10 @@
 # read name0 name1 name2
 # echo the names are: $name0,$name1,$name2
 
-#readinng multiple inputs using array
-echo "enter the names:"
-read -a names
+# #readinng multiple inputs using array
+# echo "enter the names:"
+# read -a names
 
-echo the names are ${names[0]} , ${names[1]}
+# echo the names are ${names[0]} , ${names[1]}
 
 
