@@ -1,16 +1,16 @@
 #!/bin/bash
 #conditional
-# :<< 'END'
-# SYNTAX if [ "condition" ]
-# then 
-#     arguments
-# elif [ "condition" ]
-# then
-#     arguments
-# else
-#     arguments
-# fi
-# END
+:<< 'END'
+SYNTAX if [ "condition" ]
+then 
+    arguments
+elif [ "condition" ]
+then
+    arguments
+else
+    arguments
+fi
+END
 # for stings or character comparison if we use symbols like <,>,=,! we use double "[[]]" square brackets else "[]" single square brackets
 #for numbers or integers comparision if we use symbols like <>=! we use double paranthesis "(())" else single paranthesis "()"
 # -eq, -ge, -le, -ne, -gt, -lt, <, <= ,>, >=, =, ==, !=
