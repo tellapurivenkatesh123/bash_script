@@ -1,0 +1,46 @@
+#! /bin/bash
+:<< "end"
+syntax of case
+
+case expresion in
+    "pattern 1" )
+        statement ;; --> ";;" means break
+    "pattern 2" )
+        statement ;; 
+    .
+    .
+    .
+    * ) -->default
+esac
+end
+
+# case $1 in
+#     "car" )
+#     echo "car"
+#     ;;
+#     "bus" )
+#     echo "bus"
+#     ;;
+#     * )
+#     echo "unknown"
+#     ;;
+# esac
+
+case $1 in 
+    [a-z] )
+    echo " a- z"
+    ;;
+    [A-Z] )
+    echo " A-Z"  #incase it shows a-z change environment variable LANG=C
+    ;;
+    [0-9] )
+    echo "0-9"
+    ;;
+    ? )
+    echo "single special chracter"
+    ;;
+    * )
+    echo "unknown"
+    ;;
+    esac
+
