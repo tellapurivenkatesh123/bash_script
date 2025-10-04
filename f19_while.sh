@@ -20,9 +20,9 @@ E
 
 #reding file using IFS 
 
-while IFS= read -r p # "-r flag is used for previnting formate specifiers by interpreter  ->> "\c %d"
-do
-    echo $p
-done < /etc/newt/palette
+# while IFS= read -r p # "-r flag is used for previnting formate specifiers by interpreter  ->> "\c %d"
+# do
+#     echo $p
+# done < /etc/newt/palette
 
 

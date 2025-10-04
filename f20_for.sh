@@ -40,5 +40,29 @@ end
 #     echo $i
 # done
 
+# for i in ls date pwd
+# do
+# echo "-------------$i--------------"
+# $i
+# done
+
+# for i in *
+# do
+# if [ -f $i ]
+# then echo "$i"
+# fi 
+# done 
+
+# for i in $(cat file.txt)
+# do
+# echo "--------$i----------"
+# $i
+# done
+
+# while read i
+# do
+# echo "-----$i----------"
+# $i
+# done < file.txt
 
 
