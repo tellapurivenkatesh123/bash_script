@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# reads the filename and finds whetther hte file exist or not
-# flag  "-e " is used
+# reads the filename and finds whether the file exist or not
+# flag  "-e " is used to in echo to interpret format specifiers
 
 # echo -e "enter the filename \c "
 # read filename

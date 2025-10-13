@@ -3,7 +3,7 @@
 #user define variables
 name="venkatesh" #string
 name2=warlu
-echo the name is : $name$name2
+echo the name is : $name $name2
 
 value=69.0 #integer
 echo the value is : $value

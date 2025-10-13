@@ -1,5 +1,5 @@
 #!/bin/bash 
-#shebang
+#sha bang
 
 #displaying type of shell
 echo The shell is : $BASH

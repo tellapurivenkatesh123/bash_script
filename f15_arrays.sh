@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/bash +x
 os=('ubuntu' 'linus' 'mac')
 os[3]='windows'
 echo "${os[@]}"

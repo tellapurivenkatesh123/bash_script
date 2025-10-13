@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 << "end"
 signals and traps
 ctrl + c --> SIGINT

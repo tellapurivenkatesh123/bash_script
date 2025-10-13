@@ -13,7 +13,7 @@ fi
 END
 # for stings or character comparison if we use symbols like <,>,=,! we use double "[[]]" square brackets else "[]" single square brackets
 #for numbers or integers comparision if we use symbols like <>=! we use double paranthesis "(())" else single paranthesis "()"
-# -eq, -ge, -le, -ne, -gt, -lt, <, <= ,>, >=, =, ==, !=
+# -eq, -ge, -le, -ne, -gt, -lt, <, <= ,>, >=, =, ==, !=, -n, -z
 
 # read -p "enter two numbers :" n1 n2
 # if [ "$n1" -eq "$n2" ]
