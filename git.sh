@@ -7,6 +7,14 @@ read input
 if [[ $input == "f" ]];then
     echo -e "Enter the files to commit:\c"
     read -a files 
+    for f in ${files[@]};do
+        if [ ! -f $f ];then 
+        exit 1
+        else
+            continue
+        fi
+    done
+
     echo "Adding files $files"
     add=$(git add ${files[@]})
 else
