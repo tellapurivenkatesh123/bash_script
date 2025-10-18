@@ -1,4 +1,7 @@
-echo "autmated git"
+#!/bin/bash
+echo "============================"
+echo "🚀 Automated Git Workflow"
+echo "============================"
 echo -e "press 'f' to commit files or 'ENTER' to continue:\c"
 read input
 if [[ $input == "f" ]];then
